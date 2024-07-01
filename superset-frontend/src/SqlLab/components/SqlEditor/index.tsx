@@ -125,6 +125,7 @@ import KeyboardShortcutButton, {
   KEY_MAP,
   KeyboardShortcut,
 } from '../KeyboardShortcutButton';
+import AiGenerator from '../AIGenerator';
 
 const bootstrapData = getBootstrapData();
 const scheduledQueriesConf = bootstrapData?.common?.conf?.SCHEDULED_QUERIES;
@@ -857,6 +858,7 @@ const SqlEditor: FC<Props> = ({
               startQuery={startQuery}
             />
           )}
+          <AiGenerator queryEditorId={queryEditor.id} />
           <AceEditorWrapper
             autocomplete={autocompleteEnabled}
             onBlur={onSqlChanged}

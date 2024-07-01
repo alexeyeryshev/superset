@@ -30,6 +30,7 @@ import useQueryEditor from 'src/SqlLab/hooks/useQueryEditor';
 import type { CursorPosition } from 'src/SqlLab/types';
 import { useAnnotations } from './useAnnotations';
 import { useKeywords } from './useKeywords';
+import { onChange } from 'src/dashboard/actions/dashboardState';
 
 type HotKey = {
   key: KeyboardShortcut;

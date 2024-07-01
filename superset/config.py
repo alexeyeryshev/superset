@@ -1534,6 +1534,7 @@ TALISMAN_CONFIG = {
             "'self'",
             "https://api.mapbox.com",
             "https://events.mapbox.com",
+            "https://api.openai.com"
         ],
         "object-src": "'none'",
         "style-src": [
@@ -1564,6 +1565,7 @@ TALISMAN_DEV_CONFIG = {
             "'self'",
             "https://api.mapbox.com",
             "https://events.mapbox.com",
+            "https://api.openai.com"
         ],
         "object-src": "'none'",
         "style-src": [
